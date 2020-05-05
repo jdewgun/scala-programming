@@ -1,5 +1,7 @@
 package lectures.OOP
 
+import scala.language.postfixOps
+
 object MethodNotations extends App {
 
   class Person(val name: String, favoriteMovie: String) {
@@ -41,7 +43,7 @@ object MethodNotations extends App {
 
   // PostFix Notations
   println(mary.isAlive)
-  //println(mary isAlive)
+  println(mary isAlive)
 
   // Apply
   println(mary.apply())
